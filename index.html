@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>QuickBite | Digital Menu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="pill">SCAN • BROWSE • ENJOY</div>
+    <h1>QuickBite <span>Digital Menu</span></h1>
+    <p>Fresh favorites, one scan away.</p>
+    <div class="hero-bottom"><span>Open daily · 10 AM – 10 PM</span><span>● Online menu demo</span></div>
+  </header>
+
+  <main class="container">
+    <section class="intro">
+      <div><p class="eyebrow">OUR MENU</p><h2>Good food. Simple ordering.</h2></div>
+      <input id="search" type="search" placeholder="Search menu..." aria-label="Search menu">
+    </section>
+    <nav class="filters" aria-label="Menu categories">
+      <button class="filter active" data-category="All">All items</button>
+      <button class="filter" data-category="Starters">Starters</button>
+      <button class="filter" data-category="Main Course">Main course</button>
+      <button class="filter" data-category="Drinks">Drinks</button>
+    </nav>
+    <section id="menu" class="menu-grid" aria-live="polite"></section>
+    <section class="order-panel">
+      <div><p class="eyebrow">YOUR ORDER</p><h2 id="order-count">0 items selected</h2><p id="order-detail">Choose an item to add it to your demo order.</p></div>
+      <button id="clear-order" class="secondary">Clear order</button>
+    </section>
+    <p class="note">Demo only: this sample displays a local menu and does not process payments or send real orders.</p>
+  </main>
+  <footer>QuickBite · Built as a learning project for Docker and CI/CD</footer>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+services:
+  qr-menu:
+    build: .
+    container_name: quickbite-menu
+    ports:
+      - "8080:80"
+    restart: unless-stopped
