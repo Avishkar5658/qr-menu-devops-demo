@@ -363,8 +363,7 @@ qr-menu-devops-demo/
     ├── architecture.png
     ├── qr-code.png
     ├── menu-mobile.png
-    ├── docker-running.png
-    └── github-actions-success.png
+    └── docker-running.png
 ```
 
 ---
