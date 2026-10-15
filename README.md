@@ -158,14 +158,6 @@ Proof that the app is running inside Docker:
   <img src="screenshots/docker-running.png" alt="Terminal showing the QuickBite container running" width="700">
 </div>
 
-### ✅ The robot approves every change
-
-The green tick means the automatic checks passed:
-
-<div align="center">
-  <img src="screenshots/github-actions-success.png" alt="GitHub Actions workflow run showing a successful build" width="700">
-</div>
-
 ---
 
 ## ⚡ Quick Start: Run It in 3 Commands
